@@ -19,8 +19,11 @@ export default {
         else if(this.score<400){
         this.rank='Rapid fingers'
         }
-        else{
+        else if(this.score<600){
             this.rank = 'Snail pace....'
+        }
+        else{
+            this.rank='Slothy loth'
         }
     }
 
